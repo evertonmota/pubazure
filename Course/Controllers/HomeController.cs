@@ -22,6 +22,14 @@ namespace Course.Controllers
             return View();
         }
 
+        public IActionResult Cadastro()
+        {
+            ViewData["Message"] = "Cadastro de alunos";
+
+            return View();
+
+        }
+
         public IActionResult Contact()
         {
             ViewData["Message"] = "Your contact page.";
